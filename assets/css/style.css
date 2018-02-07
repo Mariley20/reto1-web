@@ -1,0 +1,18 @@
+nav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(240, 197, 197);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+main {
+    margin-left: 200px;
+}
+header {
+    position: fixed;
+    z-index: 4;
+}
