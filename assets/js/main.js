@@ -1,7 +1,9 @@
+'use stric';
 const id = '001';
-pokemon(id);
+
 async function pokemon (id) {
-    const pokemonData = await fetch(`data/pokemon-list.json`);
-    const pokemonJSON = await pokemonData.json();
+    let pokemonData = await fetch('data/pokemon-list.json');
+    let pokemonJSON = await pokemonData.json();
     console.log('data', pokemonJSON);
   }
+  pokemon(id);
